@@ -1,0 +1,20 @@
+Creați o listă cu numere întregi și sortați-o în ordine crescătoare.
+Creați o listă cu câteva cuvinte și afișați-le în ordine inversă.
+Creați un tuplu cu numere întregi și calculați suma lor.
+Creați o listă de numere întregi și înlocuiți toate numerele pare cu valoarea lor dublă.
+Creați o listă cu câteva nume și verificați dacă un anumit nume se găsește în listă.
+Creați o listă de șiruri de caractere și sortați-o în ordine descrescătoare.
+Creați un tuplu cu 5 numere întregi și găsiți cel mai mare și cel mai mic număr.
+Creați o listă cu numere întregi și îndepărtați toate elementele care sunt mai mici decât 5.
+Creați o listă cu numere întregi și verificați dacă există cel puțin un element care apare de două ori în listă.
+Creați un tuplu cu câteva valori și transformați-l în listă.
+Creați o listă cu câteva cuvinte și concatenați-le pentru a forma un singur șir de caractere.
+Creați o listă cu numere întregi și verificați dacă toate elementele sunt numere prime.
+Creați o listă cu numere întregi și înlocuiți toate numerele mai mici decât 10 cu valoarea lor pătratică.
+Creați un tuplu cu câteva valori și verificați dacă există cel puțin două valori egale în tuplu.
+Creați o listă cu numere întregi și găsiți cel de-al doilea cel mai mic element.
+Creați o listă cu numere întregi și verificați dacă aceasta este o listă palindrom (adica poate fi citita invers la fel ca si in ordine normala).
+Creați o listă cu câteva cuvinte și înlocuiți toate literele mici cu litere mari.
+Creați un tuplu cu numere întregi și verificați dacă acestea sunt în ordine crescătoare.
+Creați o listă cu numere întregi și găsiți numerele duplicate din listă.
+Creați o listă cu câteva cuvinte și afișați doar cuvintele care au o lungime mai mare de 5 caractere.

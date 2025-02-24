@@ -1,0 +1,42 @@
+verifică dacă un număr este pozitiv sau negativ.
+calculează suma numerelor de la 1 la 10.
+verifică dacă un număr este prim sau nu.
+afișează numerele pare de la 1 la 20.
+afișează numerele impare de la 10 la 30.
+
+
+calculează media aritmetică a unui set de numere.
+verifică dacă o anumită literă se găsește într-un șir de caractere.
+verifică dacă un șir de caractere este palindrom.
+afișează toate numerele divizibile cu 3 și 5 între 1 și 50.
+calculează factorialul unui număr dat.
+afișează un triunghi de dimensiune dată.
+afișează tabela de multiplicare până la 10 a unui număr dat.
+afișează primele 10 numere Fibonacci.
+calculează cel mai mare divizor comun al două numere date.
+primește de la utilizator un număr întreg și afișează dacă acesta este par sau impar.
+primește de la utilizator o temperatură în grade Celsius și o convertește în grade Fahrenheit folosind formula: F = (C * 9/5) + 32.
+calculează rădăcina pătrată a unui număr dat de utilizator.
+calculează aria unui cerc, având raza dată de utilizator.
+primește de la utilizator o propoziție și afișează numărul de cuvinte din acea propoziție.
+primește de la utilizator un șir de caractere și îl afișează inversat.
+primește de la utilizator două numere și afișează dacă primul număr este mai mare decât al doilea.
+verifică dacă un număr dat de utilizator este divizibil cu 5.
+primește de la utilizator un șir de caractere și îl convertește în bytes.
+realizează inversul operației de la problema anterioară.
+calculeze și să afișeze suma a două numere întregi citite de la tastatură.
+calculeze și să afișeze produsul a două numere reale citite de la tastatură.
+verifice dacă un număr întreg citit de la tastatură este pozitiv sau negativ și să afișeze un mesaj corespunzător.
+verifice dacă un număr real citit de la tastatură este nenul și să afișeze un mesaj corespunzător.
+verifice dacă un șir de caractere citit de la tastatură este palindrom (adică se citește la fel de la stânga la dreapta și de la dreapta la stânga).
+citească un șir de caractere și să afișeze primul și ultimul caracter din șir.
+creeze un șir de caractere format din primele n litere ale alfabetului englezesc (unde n este un număr citit de la tastatură).
+verifice dacă un șir de caractere citit de la tastatură conține doar litere și să afișeze un mesaj corespunzător.
+creeze un șir de caractere format din literele unui șir citit de la tastatură, dar eliminând spațiile dintre ele.
+creeze un șir de caractere format din caracterele unui șir citit de la tastatură, dar în ordine inversă.
+verifice dacă un număr întreg citit de la tastatură este divizibil cu 3 sau 5 și să afișeze un mesaj corespunzător.
+verifice dacă un șir de caractere citit de la tastatură conține un anumit subșir și să afișeze un mesaj corespunzător.
+creeze un șir de caractere format din literele unui șir citit de la tastatură, dar doar din pozițiile pare.
+calculeze și să afișeze media aritmetică a n numere întregi citite de la tastatură.
+calculeze și să afișeze maximul dintre trei numere întregi citite de la tastatură.
+creeze un șir de caractere format din numerele întregi până la un număr citit de la tastatură, separate prin virgulă.
