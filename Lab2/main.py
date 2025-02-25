@@ -1,16 +1,5 @@
 import math
 
-class bcolors:
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-
 def ex1():
     num = float(input("Introdu un numar: "))
     if num >= 0:
@@ -233,56 +222,8 @@ def ex40():
     result = [str(i) for i in range(1, n + 1)]
     print(','.join(result))
 
-ex_summaries = {
-    "1": "1. Numar pozitiv sau negativ.",
-    "2": "2. Suma numerelor de la 1 la 10.",
-    "3": "3. Verificare numar prim sau nu.",
-    "4": "4. Afișare numere pare de la 1 la 20.",
-    "5": "5. Afișare numere impare de la 10 la 30.",
-    "6": "6. Media aritmetică a unui set de numere.",
-    "7": "7. Verificare literă în șir.",
-    "8": "8. Verificare șir palindrom.",
-    "9": "9. Numere divizibile cu 3 și 5 între 1 și 50.",
-    "10": "10. Factorialul unui număr.",
-    "11": "11. Afișează un triunghi de dimensiune dată.",
-    "12": "12. Tabela de multiplicare până la 10 a unui număr dat.",
-    "13": "13. Primele 10 numere Fibonacci.",
-    "14": "14. Cel mai mare divizor comun al două numere.",
-    "15": "15. Par sau impar (număr întreg).",
-    "16": "16. Conversie Celsius în Fahrenheit.",
-    "17": "17. Rădăcina pătrată a unui număr.",
-    "18": "18. Aria unui cerc (dată raza).",
-    "19": "19. Număr de cuvinte dintr-o propoziție.",
-    "20": "20. Afișare inversă a unui șir.",
-    "21": "21. Comparare a două numere.",
-    "22": "22. Verificare divizibilitate cu 5.",
-    "23": "23. Conversie șir în bytes.",
-    "24": "24. Inversul operației de la conversie bytes.",
-    "25": "25. Suma a două numere întregi.",
-    "26": "26. Produsul a două numere reale.",
-    "27": "27. Verificare pozitiv/negativ (număr întreg).",
-    "28": "28. Verificare nenul (număr real).",
-    "29": "29. Verificare șir palindrom (varianta 2).",
-    "30": "30. Afișare primului și ultimului caracter din șir.",
-    "31": "31. Primele n litere din alfabetul englez.",
-    "32": "32. Verificare dacă șirul conține doar litere.",
-    "33": "33. Elimină spațiile din șir.",
-    "34": "34. Afișare inversă a șirului.",
-    "35": "35. Divizibilitate cu 3 sau 5.",
-    "36": "36. Verificare conținutul unui subșir.",
-    "37": "37. Litere din pozițiile pare ale șirului.",
-    "38": "38. Media aritmetică a n numere.",
-    "39": "39. Maximul dintre trei numere.",
-    "40": "40. Șir de numere separate prin virgulă."
-}
-
-def print_exercises():
-    for i in range(1, 41):
-        print(ex_summaries[str(i)])
-
 def run_exercise():
-    print_exercises()
-    choice = input("Introdu numarul exercitiului (ex: 1): ")
+    choice = input("Alege un exercitiu (1-40): ")
     func_name = "ex" + choice
     try:
         globals()[func_name]()
