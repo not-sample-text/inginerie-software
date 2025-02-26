@@ -27,6 +27,22 @@ def ex2():
   for nume, nota in note.items():
     print(nume, "are nota", nota)
 
+def ex3():
+  # a
+  set1 = {1, 2, 3, 4, 5}
+  set2 = {4, 5, 6, 7, 8}
+  print("Set1: ", set1)
+  print("Set2: ", set2)
+  
+  # b
+  print("Reuniunea: ", set1.union(set2))
+  
+  # c
+  print("Intersectia: ", set1.intersection(set2))
+  
+  # d
+  print("Diferenta: ", set1.difference(set2))
+
 def ex4():
   # a
   arr1 = np.array([range(1, 11)])
@@ -59,7 +75,13 @@ def ex4():
   arr_det = arr2
   print(arr_det)
   print("Det. matricii = ", np.linalg.det(arr_det))
-  
+def run_exercise():
+    choice = input("Alege un exercitiu (1-4): ")
+    func_name = "ex" + choice
+    try:
+      globals()[func_name]()
+    except KeyError:
+      print("Exercitiul nu exista!")
+
 if __name__ == "__main__":
-  # print("Hello World!")
-  ex4()
+    run_exercise()
