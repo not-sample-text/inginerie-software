@@ -1,13 +1,14 @@
 import random
 import math
 
-lista_numere = random.sample(range(100), 11)
+# exercitii de la http://cti.ubm.ro/is/#/IS/lab04
 
 with open("../random-words.txt", "r") as file:
   cuvinte = file.read().split("\n")
 
-# Get 10 random words
 lista_cuvinte = random.sample(cuvinte, 10)
+
+lista_numere = random.sample(range(100), 11)
 
 def afiseaza_lista(lista):
   print("Lista:", ", ".join(map(str, lista)))

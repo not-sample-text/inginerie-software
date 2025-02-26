@@ -1,5 +1,7 @@
 import math
 
+# exercitii de la http://cti.ubm.ro/is/#/IS/lab02
+
 def ex1():
     num = float(input("Introdu un numar: "))
     if num >= 0:
