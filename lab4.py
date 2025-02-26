@@ -3,7 +3,7 @@ import math
 
 # exercitii de la http://cti.ubm.ro/is/#/IS/lab04
 
-with open("../random-words.txt", "r") as file:
+with open("random-words.txt", "r") as file:
   cuvinte = file.read().split("\n")
 
 lista_cuvinte = random.sample(cuvinte, 10)

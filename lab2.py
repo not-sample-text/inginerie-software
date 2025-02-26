@@ -3,17 +3,14 @@ import math
 # exercitii de la http://cti.ubm.ro/is/#/IS/lab02
 
 def ex1():
-    num = float(input("Introdu un numar: "))
-    if num >= 0:
-        print("Pozitiv")
-    else:
-        print("Negativ")
+    num = int(input("Introdu un numar: "))
+    print("Pozitiv" if num >= 0 else "Negativ")
 
 def ex2():
     print(sum(range(10)))
 
 def ex3():
-    num = float(input("Introdu un numar: "))
+    num = int(input("Introdu un numar: "))
     is_prime = num >= 2 and all(num % i != 0 for i in range(2, int(math.sqrt(num)) + 1))
     if is_prime:
         print("Numarul este prim")
@@ -29,8 +26,8 @@ def ex5():
     print(" ".join(result))
 
 def ex6():
-    count = int(float(input("Introdu numarul de elemente: ")))
-    numbers = [float(input(f"Introdu elementul {i+1}: ")) for i in range(count)]
+    count = int(int(input("Introdu numarul de elemente: ")))
+    numbers = [int(input(f"Introdu elementul {i+1}: ")) for i in range(count)]
     print(sum(numbers) / count)
 
 def ex7():
@@ -57,12 +54,12 @@ def ex10():
     print(math.factorial(num))
 
 def ex11():
-    count = int(float(input("Introdu numarul: ")))
+    count = int(int(input("Introdu numarul: ")))
     for i in range(1, count + 1):
         print("*" * i)
 
 def ex12():
-    num = float(input("Introdu numarul: "))
+    num = int(input("Introdu numarul: "))
     result = [f"{num} * {i} = {num * i}" for i in range(1, 11)]
     print(" | ".join(result))
 
@@ -75,8 +72,8 @@ def ex13():
     print(" ".join(str(x) for x in fib))
 
 def ex14():
-    a = float(input("Introdu primul numar: "))
-    b = float(input("Introdu al doilea numar: "))
+    a = int(input("Introdu primul numar: "))
+    b = int(input("Introdu al doilea numar: "))
     def gcd(x, y):
         while y != 0:
             x, y = y, x % y
@@ -84,23 +81,23 @@ def ex14():
     print(gcd(a, b))
 
 def ex15():
-    num = float(input("Introdu numarul: "))
+    num = int(input("Introdu numarul: "))
     if num % 2 == 0:
         print("Par")
     else:
         print("Impar")
 
 def ex16():
-    temp_c = float(input("Introdu temperatura: "))
+    temp_c = int(input("Introdu temperatura: "))
     fahrenheit = temp_c * 9 / 5 + 32
     print(f"Temperatura in Fahrenheit: {fahrenheit}")
 
 def ex17():
-    num = float(input("Introdu numarul: "))
+    num = int(input("Introdu numarul: "))
     print(math.sqrt(num))
 
 def ex18():
-    num = float(input("Introdu numarul: "))
+    num = int(input("Introdu numarul: "))
     print(math.pi * num ** 2)
 
 def ex19():
@@ -113,12 +110,12 @@ def ex20():
     print(sir[::-1])
 
 def ex21():
-    num1 = float(input("Introdu primul numar: "))
-    num2 = float(input("Introdu al doilea numar: "))
+    num1 = int(input("Introdu primul numar: "))
+    num2 = int(input("Introdu al doilea numar: "))
     print(max(num1, num2))
 
 def ex22():
-    num = float(input("Introdu numarul: "))
+    num = int(input("Introdu numarul: "))
     if num % 5 == 0:
         print("Da")
     else:
@@ -138,8 +135,8 @@ def ex25():
     print(num1 + num2)
 
 def ex26():
-    num1 = float(input("Primul număr: "))
-    num2 = float(input("Al doilea număr: "))
+    num1 = int(input("Primul număr: "))
+    num2 = int(input("Al doilea număr: "))
     print(num1 * num2)
 
 def ex27():
@@ -150,7 +147,7 @@ def ex27():
         print("Negativ")
 
 def ex28():
-    num = float(input("Introdu un număr real: "))
+    num = int(input("Introdu un număr real: "))
     if num != 0:
         print("Nenul")
     else:
