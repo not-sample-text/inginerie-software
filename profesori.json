@@ -1,0 +1,17 @@
+[
+    {
+        "nume": "Marinescu",
+        "prenume": "Vasile",
+        "materie": "Matematica"
+    },
+    {
+        "nume": "Dumitrescu",
+        "prenume": "Maria",
+        "materie": "Informatica"
+    },
+    {
+        "nume": "Stanciu",
+        "prenume": "Mircea",
+        "materie": "Informatica"
+    }
+]

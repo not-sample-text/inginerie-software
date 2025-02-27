@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "nume": "Popescu",
+            "prenume": "Ion",
+            "note": [
+                8.0,
+                9.0,
+                10.0
+            ]
+        },
+        {
+            "nume": "Ionescu",
+            "prenume": "Ana",
+            "note": [
+                7.0,
+                6.0,
+                8.0
+            ]
+        },
+        {
+            "nume": "Georgescu",
+            "prenume": "Elena",
+            "note": [
+                10.0,
+                9.0,
+                9.0
+            ]
+        }
+    ],
+    "profesori": [
+        {
+            "nume": "Marinescu",
+            "prenume": "Vasile",
+            "materie": "Matematica"
+        },
+        {
+            "nume": "Dumitrescu",
+            "prenume": "Maria",
+            "materie": "Informatica"
+        },
+        {
+            "nume": "Stanciu",
+            "prenume": "Mircea",
+            "materie": "Informatica"
+        }
+    ]
+}
