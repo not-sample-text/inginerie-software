@@ -7,7 +7,7 @@ Acest repo conține exerciții de programare preluate de pe site-ul [CTI - IS](h
 - **.gitignore** – Listează fișierele și folderele ce trebuie ignorate de Git.
 - **exercitii/**
   - **lab2.py** – Exerciții de laborator 02 (exerciții de bază: input, condiții, bucle, etc.) preluate de la [CTI - IS lab02](http://cti.ubm.ro/is/#/IS/lab02).
-  - **lab4.py** – Exerciții de laborator 04 (liste, șiruri de caractere, manipulare de fișiere) de la [CTI - IS lab04](http://cti.ubm.ro/is/#/IS/lab04).
+  - **lab4.py** – Exerciții de laborator 04 (liste, șiruri de caractere) de la [CTI - IS lab04](http://cti.ubm.ro/is/#/IS/lab04).
   - **lab6.py** – Exerciții de laborator 06, folosind biblioteca NumPy (operații pe array-uri, matrice) conform cerințelor de la [CTI - IS lab06](http://cti.ubm.ro/is/#/IS/lab06).
   - **lab7.py** – Exerciții de laborator 07 care acoperă programarea orientată pe obiect (clase, moștenire, metode) preluate de la [CTI - IS lab07](http://cti.ubm.ro/is/#/IS/lab07).
   - **lab8/**
