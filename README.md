@@ -5,7 +5,6 @@ Acest repo conține exerciții de programare preluate de pe site-ul [CTI - IS](h
 ## Structura Repo-ului
 
 - **.gitignore** – Listează fișierele și folderele ce trebuie ignorate de Git.
-- **.idea/** – Conține setările specifice IDE-ului (IntelliJ/PyCharm).
 - **exercitii/**
   - **lab2.py** – Exerciții de laborator 02 (exerciții de bază: input, condiții, bucle, etc.) preluate de la [CTI - IS lab02](http://cti.ubm.ro/is/#/IS/lab02).
   - **lab4.py** – Exerciții de laborator 04 (liste, șiruri de caractere, manipulare de fișiere) de la [CTI - IS lab04](http://cti.ubm.ro/is/#/IS/lab04).
