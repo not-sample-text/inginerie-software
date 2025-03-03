@@ -1,6 +1,8 @@
 import csv
 import json
 
+# exercitii de la http://cti.ubm.ro/is/#/IS/lab08
+
 # 1
 class Student:
     def __init__(self, nume, prenume, note):
