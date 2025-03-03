@@ -1,0 +1,10 @@
+Creează o clasă Student cu atributele nume, prenume și note. Scrie o metodă care salvează datele despre studenți într-un fișier CSV.
+Scrie o metodă care citește datele despre studenți dintr-un fișier CSV și creează o listă de obiecte de tipul Student.
+Scrie o metodă care adaugă un student nou în fișierul CSV.
+Scrie o metodă care calculează media notelor pentru fiecare student și o salvează într-un fișier JSON.
+Scrie o metodă care afișează studenții cu media notelor peste o anumită valoare citită dintr-un fișier text.
+Creează o clasă Profesor cu atributele nume, prenume și materie. Scrie o metodă care salvează datele despre profesori într-un fișier JSON.
+Scrie o metodă care citește datele despre profesori dintr-un fișier JSON și creează o listă de obiecte de tipul Profesor.
+Scrie o metodă care adaugă un profesor nou în fișierul JSON.
+Scrie o metodă care afișează profesorii care predau o anumită materie citită dintr-un fișier text.
+Creează o clasă Catalog care conține liste de obiecte de tipul Student și Profesor. Scrie metode pentru salvarea și încărcarea datelor din catalog în/din fișiere CSV și JSON.
