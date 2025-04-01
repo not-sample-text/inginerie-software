@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Solar Generation Dashboard</title>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="{{ url_for('static', filename='css/index.css') }}" />
+	</head>
+
+	<body>
+		<div class="header">
+			<h1>Solar Generation Dashboard</h1>
+			<div>
+				<a
+					href="/graph"
+					class="view-button"
+					>View All Graphs</a
+				>
+			</div>
+		</div>
+
+		<div class="form-container">
+			<h2>Generate New Solar Data Visualization</h2>
+			<form id="generate-form">
+				<div class="form-group">
+					<label for="region_code">Region Code:</label>
+					<select
+						id="region_code"
+						name="region_code"
+						required>
+						<option value="BE1">BE1</option>
+						<option value="BE2">BE2</option>
+						<option value="BE3">BE3</option>
+						<option value="DEA">DEA</option>
+						<option value="DK01">DK01</option>
+						<option value="FR1">FR1</option>
+						<option value="UKC">UKC</option>
+						<option value="UKJ">UKJ</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label for="start_date">Start Date:</label>
+					<input
+						type="date"
+						id="start_date"
+						name="start_date"
+						required />
+				</div>
+
+				<div class="form-group">
+					<label for="end_date">End Date:</label>
+					<input
+						type="date"
+						id="end_date"
+						name="end_date"
+						required />
+				</div>
+
+				<div class="actions">
+					<button type="submit">Generate Plots</button>
+					<a
+						href="/initialize"
+						class="view-button"
+						id="init-data"
+						>Initialize Default Data</a
+					>
+				</div>
+			</form>
+
+			<div
+				id="loading"
+				class="loading">
+				<p>Generating plots... This may take a moment.</p>
+			</div>
+
+			<div
+				id="message"
+				class="message"
+				style="display: none"></div>
+		</div>
+
+		<h2>Available Regions</h2>
+		<div id="regions-container">Loading available regions...</div>
+
+		<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Generation Graphs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/graph.css') }}" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Solar Generation Graphs</h1>
+            <a href="/" class="button">Back to Dashboard</a>
+        </div>
+        
+        <div class="controls">
+            <div class="region-filter">
+                <label for="region-select">Filter by Region:</label>
+                <select id="region-select">
+                    <option value="">All Regions</option>
+                    {% for region in regions %}
+                        <option value="{{ region }}" {% if selected_region == region %}selected{% endif %}>{{ region }}</option>
+                    {% endfor %}
+                </select>
+                <button id="apply-filter" class="button">Apply</button>
+            </div>
+        </div>
+        
+        {% if svg_files %}
+            <div class="graph-container">
+                {% for svg_file in svg_files %}
+                    <div class="graph-card">
+                        <h3>{{ svg_file.split('_plot')[0] }}</h3>
+                        <img src="{{ url_for('serve_svg', filename=svg_file.replace('_plot', '_plot_dark') if dark_mode else svg_file) }}" alt="Solar Generation Graph" class="graph-image">
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="no-graphs">
+                <h2>No graphs available</h2>
+                <p>No solar generation data has been plotted yet. Generate some data first.</p>
+                <a href="/" class="button">Back to Dashboard</a>
+            </div>
+        {% endif %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+</body>
+</html>

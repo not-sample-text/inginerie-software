@@ -1,0 +1,40 @@
+API.PY:
+	- Get the data from api.pvlive.uk based on user-defined region and time range.
+	- Handle errors like API failures or invalid responses.
+	- Organize it into a structured format (convert timestamps, sort chronologically).
+	- Return the cleaned data for further processing.
+
+GRAPH.PY:
+	- Receive data from api.py and extract timestamps + solar generation values.
+	- Generate a matplotlib plot based on the data.
+	- Format the graph (labels, time format, grid, etc.).
+
+APP.PY:
+	- Initialize Flask and define the routes.
+	- Call API functions to fetch data when needed.
+	- Call Graph functions to process and visualize the data.
+	- Pass the graph + stats to the templates for rendering.
+	- Run the web app on a local or remote server.
+
+TEMPLATES/:
+	- index.html
+		- A homepage with links to different graphs or stats pages.
+		- Basic explanation of the project and data source.
+
+	- graph.html 
+		- Displays the solar generation graph.
+		- Shows key stats (latest value, highest/lowest, total generation, etc.).
+		- Dropdowns for selecting region & date range (optional feature).
+
+STATIC/:
+	- index.css  
+		- Styles the homepage, ensuring it’s clean and modern. 
+		- Adds responsive design for mobile and desktop.
+
+	- graph.css  
+		- Styles the graph page, making sure stats and the chart are well-aligned.
+		- Ensures the page layout adapts well on small & large screens.
+
+	- Dark Mode Support  
+		- Uses @media (prefers-color-scheme: dark) to **auto-detect system theme.
+		- Provides toggle option to manually switch between light & dark mode.
